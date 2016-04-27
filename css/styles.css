@@ -66,7 +66,7 @@ section .bleed { padding: 0; }
 
 .level1 { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 
-.hero { min-width: 100%; position: relative; } /* 1729px */
+.hero { min-width: 100%; position: relative; overflow: hidden} /* 1729px */
 .hero:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
 
 .hero img { display: block; min-width: 100%;}
