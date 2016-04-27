@@ -40,6 +40,8 @@ a:focus {
     color: #235CFF;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -51,7 +53,7 @@ h6 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.5;
 }
 
@@ -97,9 +99,8 @@ aside {
 }
 
 .btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    color: #FFFFFF;
+    background-color: #448AFF;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -111,16 +112,14 @@ aside {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #ededed;
-    color: #222;
-    background-color: #f2f2f2;
+    color: #FFFFFF;
+    background-color: #235CFF;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
 }
 
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    background-image: none;
-}
+
 
 .btn-default.disabled,
 .btn-default[disabled],
@@ -140,19 +139,19 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-    border-color: #fff;
-    background-color: #fff;
+   color: #FFFFFF;
+    background-color: #448AFF;
+    opacity: 40%;
 }
 
 .btn-default .badge {
-    color: #fff;
-    background-color: #222;
+   color: #FFFFFF;
+    background-color: #448AFF;
 }
 
 .btn-primary {
-    border-color: #FF3B00;
-    color: #fff;
-    background-color: #FF3B00;
+    color: #FFFFFF;
+    background-color: #448AFF;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -164,15 +163,16 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #235CFF;
 }
 
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     background-image: none;
+    color: #fff;
+        background-color: #235CFF;
 }
 
 .btn-primary.disabled,
@@ -193,22 +193,23 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #FF3B00;
-    background-color: #FF3B00;
+       color: #FFFFFF;
+    background-color: #448AFF;
+    opacity: 40%;
 }
 
 .btn-primary .badge {
-    color: #FF3B00;
-    background-color: #fff;
+     color: #FFFFFF;
+    background-color: #448AFF;
 }
 
 .btn {
     border: 0;
-    border-radius: 300px;
-    text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
+    border-radius: 2px;
+    font-family: /*GF*/ Roboto, sans-serif;
 }
+
+
 
 .btn-xl {
     padding: 15px 30px;
@@ -216,14 +217,14 @@ fieldset[disabled] .btn-primary.active {
 
 ::-moz-selection {
     text-shadow: none;
-    color: #fff;
-    background: #222;
+    color: #FFFFFF;
+    background-color: #FF3B00;
 }
 
 ::selection {
     text-shadow: none;
-    color: #fff;
-    background: #222;
+    color: #FFFFFF;
+    background-color: #FF3B00;
 }
 
 img::selection {
@@ -237,5 +238,89 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #222;
+    webkit-tap-highlight-color: #FF3B00;
 }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+  position: relative;
+  min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
+  margin-bottom: @navbar-margin-bottom;
+  // Prevent floats from breaking the navbar
+  &:extend(.clearfix all);
+
+  @media (min-width: @grid-float-breakpoint) {
+    border-radius: @navbar-border-radius;
+  }
+}
+
+.navbar .navbar-collapse {
+ overflow-x: visible;
+  padding-right: @navbar-padding-horizontal;
+  padding-left:  @navbar-padding-horizontal;
+  text-align: center;
+  vertical-align: middle;
+    height: auto;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
+  &:extend(.clearfix all);
+  -webkit-overflow-scrolling: touch;
+}
+
+.navbar-fixed-top{
+  .navbar-collapse {
+    max-height: 70px;
+
+    @media (max-device-width: @screen-xs-min) and (orientation: landscape) {
+      max-height: 70px;
+    }
+  }
+}
+
+.navbar-default {
+    background-color: #FFFFFF;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inner {
+  padding: 50px 5%;
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+}
+
+.right {
+  padding: 50px 5% 50px 50%;
+  text-align: left;
+  position: relative;
+  color: #ffffff;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
