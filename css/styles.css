@@ -188,18 +188,17 @@ article { width: 100%; position: relative; text-align: left; }
 .contact a:hover, a:active { color: #3F5FFF; border-bottom: 0px }
 .contact i { margin: 0 2%; }
 
-.QBPOS footer, .QBES footer, .esurance footer, .basket footer {text-align: center; margin: 0 0 2em; background-color: #fff; }
-.QBPOS footer:after, .QBES footer:after, .esurance footer:after, .basket footer:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+.QBPOS footer, .QBES footer, .esurance footer, .basket footer {text-align: center; background-color: #fff; }
+/*.QBPOS footer:after, .QBES footer:after, .esurance footer:after, .basket footer:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+*//*
+section { padding: 0 15px; clear: both; }*/
 
-section { padding: 0 15px; clear: both; }
-
-
-.content { margin: 0 10px 50px; max-width: 700px; margin-left: auto; margin-right: auto; }
+.content { padding: 0 15px 15px; max-width: 730px; margin-left: auto; margin-right: auto; }
 .content h2 { padding: 40px 0 20px; }
-section.light { background-color: #fff; margin-top: 20px;}
-section.dark { background-color: #444; color: #fff; }
-section.dark h2 { color: #fff; }
-section.dark .quote { color: #fff; }
+section.light { background-color: #fff; padding-top: 20px;}
+.dark { background-color: #444; color: #fff; }
+.dark h2 { color: #fff; }
+.dark .quote { color: #fff; }
 article section .intro { background-color: #fff; margin: 0 10px 50px; max-width: 700px; margin-left: auto; margin-right: auto; }
 
 .meta { text-align: center; padding: 0 0 2em; }
@@ -218,11 +217,11 @@ dd { color: #444; }
 
 
 figure { display: inline; margin: 20px 0; }
-.pad-top { margin-top: 15px; }
-figure h4 { margin-top: 1em; }
+.pad-top { margin-top: 20px; }
+figure h4 { margin-top: 15px; }
 figcaption { font: 300 15px/27px "Roboto", sans-serif; margin: 1.5em 0 2.5em;}
 figcaption p { font: 300 15px/27px "Roboto", sans-serif; margin: 1.5em 0 2.5em;}
-img.nocaption { margin-bottom: 2.5em;}
+img.nocaption { margin-bottom: 20px;}
 
 .center { text-align: center; }
 img.middle { display: block; margin: 0 auto; }
@@ -253,13 +252,13 @@ hr { max-width: 50px; border-color: #FF3B00; border-width: 2px; border-style: so
 	#portfoot i { vertical-align: middle; }
 }
 
-.thumbnail a { color: #565656; text-decoration: none; cursor: pointer; -webkit-transition: all .35s; -moz-transition: all .35s; transition: all .35s; }
-.thumbnail a:hover, a:active { color: #FF3B00; border-bottom: 0px; padding-bottom: 2px;}
+.thumbnail a { color: #565656; text-align: center; text-decoration: none; cursor: pointer; -webkit-transition: all .35s; -moz-transition: all .35s; transition: all .35s; }
+.thumbnail a:hover, a:active { color: #FF3B00; text-align: center; border-bottom: 0px; }
 .QBPOS #QBPOS a { color: #969696; }
 .QBPOS #QBPOS img { opacity: 0.5; }
-.QBES #QBES a { border-bottom: 0px; padding-bottom: 2px; color: #969696; }
+.QBES #QBES a { border-bottom: 0px; color: #969696; }
 .QBES #QBES img { opacity: 0.5; }
-.esurance #esurance a { border-bottom: 0px;  padding-bottom: 2px; color: #969696; }
+.esurance #esurance a { border-bottom: 0px; color: #969696; }
 .esurance #esurance img { opacity: 0.5; }
-.basket #basket a { border-bottom: 0px;  padding-bottom: 2px; color: #969696; }
+.basket #basket a { border-bottom: 0px; color: #969696; }
 .basket #basket img { opacity: 0.5; }
