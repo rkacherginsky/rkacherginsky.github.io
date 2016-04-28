@@ -28,6 +28,7 @@ section .bleed { padding: 0; }
 
 .spacer1 { height: 2em; }
 .spacer2 { height: 1.2em; }
+.space { margin-top: 20px; }
 
 .quote h3 { font: 400 24px/40px "Lato", sans-serif; color: #444; }
 
