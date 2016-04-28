@@ -1,6 +1,6 @@
 html,body,div,h1,h2,h3,h4,h5,h6,p,ul,li,img,a,header,nav,dl,dt,dd { margin: 0; padding: 0; }
 html { font-size: 62.5%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-body { color: #848484; background-color: #FAFAFA; margin: 0; padding: 0; font: 17px/30px "Roboto", sans-serif; word-wrap: break-word; font-weight: 300; max-width: 1400px; }
+body { color: #848484; background-color: #FAFAFA; margin: 0 auto; padding: 0; font: 17px/30px "Roboto", sans-serif; word-wrap: break-word; font-weight: 300; max-width: 1400px; }
 
 img { max-width: 100%; }
 h1,h2,h3,h4,h5,h6 {	color: #444; font-family: "Lato", sans-serif; }
