@@ -28,8 +28,8 @@
 
 <article>
 	<section class="center">	
-<div style="padding-top: 50px;" class="row"><iframe src="https://docs.google.com/presentation/d/1HF4IGEBpuyLYk5m_sUS7tVd1uy4Uw28aEOgbBYeHRhw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br /><iframe src="https://docs.google.com/presentation/d/1KIu4WVQGviqtN9MUvq-cXoNwFFm5jvoGekprrr0YTYk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<div style="padding-top: 50px;" class="row">
+	<iframe src="https://docs.google.com/presentation/d/1IPJ_OGPVgJkX_9iOg6G9PeQ3mzIteYPrlsI3e2-5E7I/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
 </section>
 </article>
@@ -42,35 +42,6 @@
 
   ga('create', 'UA-31284111-1', 'auto');
   ga('send', 'pageview');
-
-
-	/* responsive video */
-	(function ( window, document, undefined ) {
-		var iframes = document.getElementsByTagName('iframe');
-		for (var i = 0; i < iframes.length; i++) {
-			var iframe = iframes[i],
-			players = /www.youtube.com|player.vimeo.com/;
-			if (iframe.src.search(players) > 0) {
-				var videoRatio = (iframe.height / iframe.width) * 100;
-				
-				iframe.style.position = 'absolute';
-				iframe.style.top      = '0';
-				iframe.style.left     = '0';
-				iframe.width          = '100%';
-				iframe.height         = '100%';
-				
-				var wrap              = document.createElement('div');
-				wrap.className        = 'fluid-vids';
-				wrap.style.width      = '100%';
-				wrap.style.position   = 'relative';
-				wrap.style.paddingTop = videoRatio + '%';
-				
-				var iframeParent      = iframe.parentNode;
-				iframeParent.insertBefore(wrap, iframe);
-				wrap.appendChild(iframe);
-			}
-		}
-	})(window, document);
 
 </script>
 
