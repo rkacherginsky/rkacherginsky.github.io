@@ -261,9 +261,10 @@ img.middle { display: block; margin: 0 auto; }
 section.overview,
 section.projects {max-width: 80%; margin: 20px auto; }
 .overview h1 { margin: 30px 0 40px; }
-.projects figcaption { color: #848484; padding: 0px 28px 2.5em 28px; }
+.projects figcaption { color: #848484; padding: 0px 26px 2.5em 26px; }
 .projects figcaption h3 { color: #444; }
 .projects figcaption:hover { color: #333; }
+.bleed { margin: 0;  padding: 0; }
 
 hr { max-width: 50px; border-color: #FF3B00; border-width: 2px; border-style: solid; }
 
