@@ -1,0 +1,41 @@
+html,body,div,h1,h2,h3,h4,h5,h6,p,ul,li,img,a,header,nav,dl,dt,dd { margin: 0; padding: 0; }
+html { font-size: 62.5%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { color: #8A919E; background-color: #0A0B0D; margin: 0; padding: 0; font: 28px/46px "Libre Baskerville", serif; word-wrap: break-word; font-weight: 400; }
+
+img { max-width: 100%; }
+h2 { color: #fff; font-family: "Playfair Display", serif; font-size:100px/120px; font-weight: 700; padding: 10px 0 20px; }
+
+a { color: #448AFF; text-decoration: none; cursor: pointer; -webkit-transition: all .35s; -moz-transition: all .35s; transition: all .35s; padding-bottom: 2px; }
+a:hover, a:active { color: #3F5FFF; border-bottom: 1.5px solid #3F5FFF; padding-bottom: 2px; }
+
+p { margin-bottom: 25px;}
+
+section { padding: 0 15px; }
+
+article { width: 100%; position: relative; text-align: left; }
+
+.row { clear: both; }
+.row:after { content:''; display:block; height:0; clear:both; visibility:hidden; }
+
+.logos-top {display: block;}
+.logos-bottom {display: block;}
+
+#contact { clear:both; /*background-color: #141519;*/ padding: 12px 40px; margin: auto 0; }
+#contact:after { content:''; display:block; height:0; clear:both; visibility:hidden; }
+#contact img { vertical-align:text-bottom;-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */ filter: grayscale(100%); opacity: 0.4; filter: alpha(opacity=40); /* For IE8 and earlier */ padding: 10px 0 20px; }
+#contact h2 {text-align: center; }
+
+.contact a { color: #3773F5; font-size: 64px ;text-decoration: none; cursor: pointer; -webkit-transition: all .35s; -moz-transition: all .35s; transition: all .35s; }
+.contact a:hover, a:active { color: #2758C3; border-bottom: 0px }
+.contact i { margin: 0 2%; }
+
+.content { padding: 0 15px 15px; max-width: 800px; margin-left: auto; margin-right: auto; }
+
+.int { font: 32px/38px "Playfair Display", serif; font-weight: 400; text-align: left; color: #efefef; margin: 1em; }
+.tldr { font: 60px/68px "Playfair Display", serif; font-weight: 400; text-align: center; color: #efefef; margin: 1em; }
+
+.center { text-align: center; }
+
+hr { max-width: 50px; border-color: #FF3B00; border-width: 2px; border-style: solid; margin-bottom: 2em; }
+
+.circle { border-radius: 50%; }
